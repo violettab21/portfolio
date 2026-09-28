@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme {
+  --color-custom-dark: #131314;
+  --color-custom-card: #222126;
+  --color-custom-orange: #e1b300;
+}
