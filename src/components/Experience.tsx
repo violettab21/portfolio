@@ -13,12 +13,13 @@ export function ExperienceBlock({
         {!isLast ? <Line /> : null}
       </div>
       <div>
-        <div className="bg-custom-card p-3 mb-7 rounded-sm">
-          <h1>{experienceData.role}</h1>
+        <div className="bg-custom-card p-5 mb-7 rounded-sm">
+          <h1 className="text-xl font-bold">{experienceData.role}</h1>
           <p>{experienceData.company}</p>
+          <br />
           <p>{experienceData.description}</p>
-          <p>Responsibilities:</p>
-          <ul>
+          <p className="text-sm font-bold mt-3">Responsibilities:</p>
+          <ul className="text-sm list-disc pl-5">
             {experienceData.responsibilities.map((res, i) => (
               <li key={i}>{res}</li>
             ))}
@@ -31,9 +32,9 @@ export function ExperienceBlock({
 
 export function Experience() {
   return (
-    <div>
-      <h1 className="text-2xl">Experience</h1>
-      <div className="grid grid-cols-[20%_80%] justify-center">
+    <section>
+      <h1 className="text-2xl font-bold">Experience</h1>
+      <div className="mt-5 grid grid-cols-[20%_80%] w-full">
         {experience.map((expData, i) => (
           <ExperienceBlock
             key={i}
@@ -42,14 +43,14 @@ export function Experience() {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 }
 
 export function Circle({ year }: { year: number }) {
   return (
     <div className="rounded-full w-12 h-12 bg-custom-orange flex justify-center items-center">
-      <p>{year}</p>
+      <p className="font-bold">{year}</p>
     </div>
   );
 }

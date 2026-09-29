@@ -81,13 +81,13 @@ export const projects: Project[] = [
     ],
     projectLink: "https://finance-tracker-13d5b.web.app/finance-tracker",
     github: "https://github.com/violettab21/finance-tracker",
-    stack: ["Next JS", "TS"],
+    stack: ["Next JS", "TS", "Redux Toolkit", "RTK Queries"],
   },
 ];
 
 export const skills = [
   {
-    groupName: "frontend",
+    groupName: "Frontend",
     tech: [
       "JavaScript",
       "React",
@@ -118,5 +118,33 @@ export const skills = [
   {
     groupName: "Tools & Others",
     tech: ["Git", "Postman", "Jira", "Scrum", "Figma"],
+  },
+];
+
+export const education = {
+  name: "Belarusian State University of Informatics and Radio electronics",
+  faculty: "Computer-aided design",
+  specialty: "Information Systems and Technologies",
+  graduationYear: 2019,
+};
+
+export const courses = [
+  {
+    school: "RS School",
+    name: "JavaScript/Front-end",
+    certificateLink: "https://app.rs.school/certificate/gm8q69qs",
+    completedOn: 2025,
+  },
+  {
+    school: "RS School",
+    name: "React",
+    certificateLink: "https://app.rs.school/certificate/15ljp1ih",
+    completedOn: 2025,
+  },
+  {
+    school: "RS School",
+    name: "Node.js",
+    certificateLink: "https://app.rs.school/certificate/lt21ph2g",
+    completedOn: 2026,
   },
 ];
