@@ -5,9 +5,12 @@ import { MdEmail } from "react-icons/md";
 
 export function Footer() {
   return (
-    <footer className="bg-custom-card w-full flex flex-col justify-center items-center mt-10 py-5">
+    <footer
+      id="contacts"
+      className="bg-custom-dark w-full flex flex-col justify-center items-center mt-10 py-5 border-t border-t-amber-100/5"
+    >
       <h1>My Contacts:</h1>
-      <ul className="mt-5 flex flex-col gap-2 border rounded-2xl border-amber-500 p-2">
+      <ul className="mt-5 flex flex-col gap-2 rounded-2xl p-5 shadow-xl bg-custom-card">
         <li className="flex items-center gap-2">
           <a href="mailto: violettabatsura@gmail.com">
             <MdEmail className="inline" size={20} /> violettabatsura@gmail.com

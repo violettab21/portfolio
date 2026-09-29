@@ -4,7 +4,7 @@ import type { Project } from "../constants";
 
 export function ProjectCard({ project }: { project: Project }) {
   return (
-    <div className="flex flex-col w-1/3 bg-custom-card rounded-sm p-5 gap-2 justify-between">
+    <div className="w-full md:w-[48%] flex flex-col bg-custom-card rounded-sm p-5 gap-2 justify-between">
       <div className="flex flex-col gap-2">
         {" "}
         <h2 className="text-xl font-bold">{project.name}</h2>

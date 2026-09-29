@@ -1,5 +1,3 @@
-import { Link } from "react-router";
-
 export function Header() {
   return (
     <header className="sticky top-0 w-full border-b border-b-amber-100/5">
@@ -15,7 +13,7 @@ export function Header() {
             <a href="#projects">Projects</a>
           </li>
           <li>
-            <Link to="/">Contact</Link>
+            <a href="#contacts">Contacts</a>
           </li>
         </ul>
       </nav>

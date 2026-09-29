@@ -80,7 +80,7 @@ export const projects: Project[] = [
       "Pagination",
     ],
     projectLink: "https://finance-tracker-13d5b.web.app/finance-tracker",
-    github: "https://github.com/violettab21/finance-tracker",
+    github: "https://github.com/violettab21/react2025q3/tree/nextjs-ssr",
     stack: ["Next JS", "TS", "Redux Toolkit", "RTK Queries"],
   },
 ];

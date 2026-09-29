@@ -12,7 +12,7 @@ export function MainPage() {
   return (
     <div className="bg-custom-dark text-white h-full flex flex-col items-center">
       <Header />
-      <div className="max-w-310 flex flex-col gap-10">
+      <div className="max-w-310 flex flex-col gap-10 px-5">
         <Hero />
         <About />
         <Skills />
