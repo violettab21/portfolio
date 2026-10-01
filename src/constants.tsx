@@ -79,7 +79,8 @@ export const projects: Project[] = [
       "Show character details",
       "Pagination",
     ],
-    projectLink: "https://finance-tracker-13d5b.web.app/finance-tracker",
+    projectLink:
+      "https://react2025q3-git-nextjs-ssr-violettas-projects-4923037e.vercel.app/rs-react-app/en",
     github: "https://github.com/violettab21/react2025q3/tree/nextjs-ssr",
     stack: ["Next JS", "TS", "Redux Toolkit", "RTK Queries"],
   },
