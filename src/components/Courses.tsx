@@ -9,7 +9,7 @@ export function Courses() {
         {courses.map((course, i) => (
           <div
             key={i}
-            className="flex flex-col items-center gap-2 w-full md:w-[30%] bg-custom-card rounded-sm p-5"
+            className="flex grow flex-col items-center gap-2 w-full md:w-[30%] bg-custom-card rounded-sm p-5"
           >
             <h2 className="text-lg font-bold">{course.name}</h2>
             <h2>{course.school}</h2>

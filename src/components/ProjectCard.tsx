@@ -4,12 +4,12 @@ import type { Project } from "../constants";
 
 export function ProjectCard({ project }: { project: Project }) {
   return (
-    <div className="w-full md:w-[48%] flex flex-col bg-custom-card rounded-sm p-5 gap-2 justify-between">
-      <div className="flex flex-col gap-2">
+    <div className="w-full md:w-[48%] grow flex flex-col bg-custom-card rounded-sm p-5 gap-4 justify-between">
+      <div className="flex flex-col gap-4">
         {" "}
         <h2 className="text-xl font-bold">{project.name}</h2>
         <p>{project.description}</p>
-        <div className="flex flex-wrap gap-1 ">
+        <div className="flex flex-wrap gap-2 ">
           {project.stack.map((el, i) => (
             <p
               key={i}

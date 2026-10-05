@@ -6,8 +6,7 @@ export function Hero() {
         A Junior Developer with a solid background in QA. My tech journey
         started in software testing, which taught me how to look at apps through
         a critical lens and think about edge cases. Today, I leverage that
-        mindset to build clean, performant, and resilient web applications using
-        React, TypeScript, and Node.js.
+        mindset to build web applications using React, TypeScript, and Node.js.
       </p>
       <a
         className="text-center block w-1/2 bg-amber-600 p-2 rounded-2xl"

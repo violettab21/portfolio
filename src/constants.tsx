@@ -11,7 +11,7 @@ export const experience: Experience[] = [
     year: 2026,
     company: "EPAM Systems",
     role: "Frontend Developer (React)",
-    description: "Сombined the roles of tester and developer",
+    description: "Combined the roles of tester and developer",
     responsibilities: ["Bug Fixes", "Team collaboration"],
   },
   {
@@ -56,13 +56,13 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    name: "Finance Traker",
+    name: "Finance Tracker",
     description: "Pet project to practice styles components usage",
     features: [
       "Login",
       "Register",
-      "Overview Page with incomes and expences summary",
-      "Incomes and Expences managing per month",
+      "Overview Page with incomes and expense summary",
+      "Incomes and Expense managing per month",
       "Plans managing",
       "Profile managing",
     ],
@@ -79,10 +79,9 @@ export const projects: Project[] = [
       "Show character details",
       "Pagination",
     ],
-    projectLink:
-      "https://react2025q3-git-nextjs-ssr-violettas-projects-4923037e.vercel.app/rs-react-app/en",
+    projectLink: "https://react2025q3-wheat.vercel.app/rs-react-app/en",
     github: "https://github.com/violettab21/react2025q3/tree/nextjs-ssr",
-    stack: ["Next JS", "TS", "Redux Toolkit", "RTK Queries"],
+    stack: ["Next JS", "TS", "Redux Toolkit"],
   },
 ];
 
