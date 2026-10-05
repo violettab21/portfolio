@@ -57,7 +57,8 @@ export interface Project {
 export const projects: Project[] = [
   {
     name: "Finance Tracker",
-    description: "Pet project to practice styles components usage",
+    description:
+      "Finance Tracker is a pet project designed to track income and expenses, build custom spending plans, and monitor savings progress in one place.",
     features: [
       "Login",
       "Register",
@@ -72,7 +73,8 @@ export const projects: Project[] = [
   },
   {
     name: "Rick and Morty app",
-    description: "Pet project to practice api usage and Next JS framework",
+    description:
+      "Pet project - Next.js web application powered by the Rick and Morty API that features an interactive character card layout, search functionality, and dedicated detail pages",
     features: [
       "Get characters",
       "Search characters",
