@@ -1,3 +1,5 @@
+import cv from "../../public/CV.pdf";
+
 export function Hero() {
   return (
     <section className="md:w-1/2 flex flex-col items-center gap-10 self-center mt-10">
@@ -8,13 +10,25 @@ export function Hero() {
         a critical lens and think about edge cases. Today, I leverage that
         mindset to build web applications using React, TypeScript, and Node.js.
       </p>
-      <a
-        className="text-center block w-1/2 bg-amber-600 p-2 rounded-2xl"
-        href="#projects"
-      >
+      <div className="flex flex-col items-center gap-4 w-full lg:flex-row">
         {" "}
-        Check out my pet projects
-      </a>
+        <a
+          className="grow text-center w-3/4 block lg:basis-1/2 sm:w-1/2 bg-amber-600 p-2 rounded-2xl"
+          href="#projects"
+        >
+          {" "}
+          Check out my pet projects
+        </a>
+        <a
+          href={cv}
+          download="cv"
+          target="_blank"
+          className="grow text-center w-3/4 block lg:basis-1/2 sm:w-1/2 bg-amber-600 p-2 rounded-2xl"
+        >
+          {" "}
+          Download CV
+        </a>
+      </div>
     </section>
   );
 }

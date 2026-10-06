@@ -13,7 +13,7 @@ export function ProjectCard({ project }: { project: Project }) {
           {project.stack.map((el, i) => (
             <p
               key={i}
-              className="px-2 py-1 rounded-xl border-amber-300 border-2"
+              className="px-2 py-1 rounded-xl border-amber-600 border-2"
             >
               {el}
             </p>
@@ -23,14 +23,14 @@ export function ProjectCard({ project }: { project: Project }) {
 
       <div className="flex gap-2 justify-between">
         <Link
-          className="bg-amber-500 block px-2 py-1 rounded-sm w-1/2 text-center"
+          className="bg-amber-600 block px-2 py-1 rounded-sm w-1/2 text-center"
           to={project.projectLink}
           target="_blank"
         >
           View the project
         </Link>
         <Link
-          className="bg-amber-500 block px-2 py-1 rounded-sm w-1/2"
+          className="bg-amber-600 block px-2 py-1 rounded-sm w-1/2"
           to={project.github}
           target="_blank"
         >

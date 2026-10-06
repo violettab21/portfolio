@@ -3,8 +3,8 @@ import { skills } from "../constants";
 export function Skills() {
   return (
     <section>
-      <h1 className="text-2xl font-bold">Skiils and Technologies</h1>
-      <div className="flex flex-wrap gap-2 mt-5 justify-between ">
+      <h1 className="text-2xl font-bold">Skills and Technologies</h1>
+      <div className="flex flex-wrap gap-2 mt-5 justify-between">
         {skills.map((skill, i) => (
           <div
             key={i}
@@ -13,7 +13,7 @@ export function Skills() {
             <h2 className="text-lg font-bold">{skill.groupName}</h2>
             <div className="flex flex-wrap gap-2 mt-5">
               {skill.tech.map((tech, i) => (
-                <p key={i} className="px-2 py-1 rounded-sm bg-custom-orange">
+                <p key={i} className="px-2 py-1 rounded-sm bg-amber-600">
                   {tech}
                 </p>
               ))}

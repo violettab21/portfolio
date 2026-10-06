@@ -1,5 +1,5 @@
 import { education } from "../constants";
-import { Circle } from "./Experience";
+import { Circle } from "./Circle";
 
 export function Education() {
   return (

@@ -121,6 +121,10 @@ export const skills = [
     groupName: "Tools & Others",
     tech: ["Git", "Postman", "Jira", "Scrum", "Figma"],
   },
+  {
+    groupName: "Languages",
+    tech: ["English (B2)", "Russian (Native)"],
+  },
 ];
 
 export const education = {
