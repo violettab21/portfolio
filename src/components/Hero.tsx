@@ -1,4 +1,4 @@
-import cv from "../../public/CV.pdf";
+import cv from "../../public/Violetta Batsura CV.pdf";
 
 export function Hero() {
   return (
